@@ -3,7 +3,7 @@ import JokeSection from './JokeSection';
 
 export default function JokeForm() {
     const [joke, setJoke] = useState([]);
-    const jokeCategories = ["animal","career","celebrity","dev", "fashion","food","history","money","music","political", "science","sport","travel"];
+    const jokeCategories = ["animal","career","celebrity","dev","fashion","food","history","money","music","science","sport","travel"];
 
     useEffect(() => {
         fetchJoke();
